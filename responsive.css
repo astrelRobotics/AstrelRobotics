@@ -494,6 +494,10 @@ body {
         text-align: left;
         margin-top: 50px;
     }
+     .content h1{
+         font-family: tahoma;
+    }
+ 
     .text-box .box-image {
         top: -80px;
         width: 90%;
@@ -611,7 +615,9 @@ display: none;
         margin-top: 10px;
         text-align: left;
     }
-    
+         .content h1{
+         font-family: tahoma;
+    }
     .content .cn {
         margin: 10px auto;
     }
@@ -738,7 +744,9 @@ display: none;
         margin-top: 10px;
         text-align: left;
     }
-    
+         .content h1{
+         font-family: tahoma;
+    }
     .content .cn {
         margin: 10px auto;
     }
