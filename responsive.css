@@ -134,6 +134,7 @@ body {
     margin-top: 80px;
     max-width: 1200px;
     color: var(--light-text);
+    font-family: tahoma;
     position: relative;
     margin: 100px auto 0;
     text-align: center;
@@ -142,7 +143,7 @@ body {
 }
 
 .content h1 {
-    font-family: tahoma;
+    
     font-size: clamp(26px, 5vw, 40px);
     margin-top: 1%;
     letter-spacing: 2px;
@@ -494,9 +495,7 @@ body {
         text-align: left;
         margin-top: 50px;
     }
-     .content h1{
-         font-family: tahoma;
-    }
+  
  
     .text-box .box-image {
         top: -80px;
@@ -615,9 +614,7 @@ display: none;
         margin-top: 10px;
         text-align: left;
     }
-         .content h1{
-         font-family: tahoma;
-    }
+
     .content .cn {
         margin: 10px auto;
     }
@@ -744,9 +741,7 @@ display: none;
         margin-top: 10px;
         text-align: left;
     }
-         .content h1{
-         font-family: tahoma;
-    }
+
     .content .cn {
         margin: 10px auto;
     }
