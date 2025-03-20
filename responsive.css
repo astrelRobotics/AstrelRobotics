@@ -225,6 +225,7 @@ body {
     grid-template-rows: repeat(2, minmax(300px, auto));
     grid-gap: 40px;
     margin-bottom: 50px;
+    overflow: hidden;
 }
 
 /* Box Styling */
