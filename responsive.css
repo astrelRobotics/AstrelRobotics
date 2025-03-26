@@ -458,6 +458,7 @@ body {
 .contact-image {
     flex: 1; /* Takes 50% width */
     text-align: right; /* Align image to the right */
+    border-radius: 10px;
 
 }
 
@@ -755,20 +756,27 @@ display: none;
         grid-template-columns: 1fr;
     }
     .text-box .box-image {
-        top: -35px;
+        top: -25px;
         right: -40px;
         width: 85%;
         height: auto;
     }
     .text-box2 .box-image {
-        top: 50px;
-        right: -20px;
+        top: 77px;
+        right: 10px;
         width: 70%;
         height: auto;
     }
+    .text-box2 {
+        padding-top: 40px;
+     
+        
+        
+      
+    }
     .text-box3 .box-image {
-        top: -60px;
-        right:80px;
+        top: -20px;
+        right:150px;
         width: 70%;
         height: auto;
     }
@@ -781,12 +789,14 @@ display: none;
     }
         .text-box4 .box-image {
         top: -30px;
-        right:250px;
-        width: 40%;
+        right:220px;
+        width: 45%;
         height: auto;
     }
     .text-box4 {
-        padding-right: 40px;
+        padding-right: 10px;
+        
+        align-items: right;
     }
     .text-box, .text-box2, .text-box3, .text-box4 {
         grid-column: span 1;
@@ -800,6 +810,39 @@ display: none;
 
     width: 100%;
     height: 100px;
+    }
+    .about-text {
+        max-width: 100%;
+        background-color: white;
+        padding: 15px;
+        border-left: 5px solid var(--primary-color); /* Green side border */
+        box-shadow: none;
+    }
+    
+    .about-section {
+ 
+        padding: 5%;
+        padding-top: 150px; /* Increases space from the top */
+
+    }
+    .about-text p {
+        font-size: 18px;
+        line-height: 1.6;
+        color: var(--dark-text);
+    }
+    .contact-details {
+        font-size: small;
+
+    }
+    .contact-image {
+        flex: 1; /* Takes 50% width */
+        text-align: center; /* Align image to the right */
+    
+    }
+    .contact-image img {
+        max-width:90%; /* Adjust image size */
+        height: auto;
+      border-radius: 10px;
     }
 }
 
